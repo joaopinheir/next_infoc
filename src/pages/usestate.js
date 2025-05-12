@@ -10,7 +10,7 @@ export default function Usestat(){
         {count}
 
        </p> 
-       <button className="btn btn-success" onClick={()=>{setCount( addOne(count+1)); console.log(count)}}>add count</button>
+       <button className="btn btn-success" onClick={async () => {setCount( await addOne(count))}}>add count</button>
 
     </Container>
     </>
@@ -19,7 +19,7 @@ function addOne(count) {
     count++;
     return new Promise((pormessa)=> {
     setTimeout(() => {
-           pormessa(count)
-    },1000);
+           pormessa(count);
+    },5000);
   })
 }

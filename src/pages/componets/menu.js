@@ -14,13 +14,10 @@ export default function Menu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/esportes">esportes</Nav.Link>
-            <Nav.Link href="/usestate">usestate</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
+            <Nav.Link href="/esporte">esportes</Nav.Link>
+            <NavDropdown title="react hook" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/usestate">useState</NavDropdown.Item>
+              <NavDropdown.Item href="/useeffect"> UseEffect</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
