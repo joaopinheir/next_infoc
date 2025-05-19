@@ -24,6 +24,10 @@ export default function Menu() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+            <NavDropdown title="cadastro" id ="cadastro>
+            <NavDropdown.Item herf"/cadrastro/cadastro">Noticias </>
+
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>

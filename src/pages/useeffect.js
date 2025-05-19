@@ -5,7 +5,7 @@ export default function Useeffect() {
     const [titulo, setTitulo] = useState("");
     const [numero, setNumero] = useState("0");
     setTimeout(() => {
-        document.title = "Bem vindo a UseEffect";
+        document.title = "Bem vindo a UseEffect:${numero}";
         const espera = mudaTitulo();
         setTimeout(mudaTitulo());
     }, 3000);
