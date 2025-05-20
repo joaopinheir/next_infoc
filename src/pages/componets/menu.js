@@ -24,11 +24,10 @@ export default function Menu() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="cadastro" id ="cadastro>
-            <NavDropdown.Item herf"/cadrastro/cadastro">Noticias </>
-
+            <NavDropdown title="Cadastro" id="cadastro-dropdown">
+              <NavDropdown.Item href="/cadastro/cadastro">Notícias</NavDropdown.Item>
             </NavDropdown>
-          </Nav>
+          </Nav>     
         </Navbar.Collapse>
       </Container>
     </Navbar>
