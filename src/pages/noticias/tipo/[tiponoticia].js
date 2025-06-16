@@ -1,0 +1,13 @@
+import {noticias} from "../noticias"
+
+export default function handler (req,res){
+    console.log(req.query.id);
+    const encontrado = noticias.find((noticia) => noticia.idnoticia.toString() === req.query.tiponoticia);
+
+   // console.log(encontrado);
+    if (!encontrado){
+        return res. status(404).json({error:"noticia nao encontrada"});
+    }
+
+res,status(200).json("encontrado")
+}
