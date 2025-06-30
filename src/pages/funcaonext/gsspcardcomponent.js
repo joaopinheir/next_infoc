@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap"
-import Cards from "../components/cards"
+import Cards from "../componets/cards"
 
 export default function Gsspcomponentcard({ produtos }) {
     return (
