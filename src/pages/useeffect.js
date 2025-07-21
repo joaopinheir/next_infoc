@@ -2,11 +2,10 @@ import { useState } from "react";
 import { Container } from "react-bootstrap"
 
 export default function Useeffect() {
-    const [titulo, setTitulo] = useState("");
+    const [titulo] = useState("");
     const [numero, setNumero] = useState("0");
     setTimeout(() => {
         document.title = "Bem vindo a UseEffect:${numero}";
-        const espera = mudaTitulo();
         setTimeout(mudaTitulo());
     }, 3000);
 
